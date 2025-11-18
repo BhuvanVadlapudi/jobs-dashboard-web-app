@@ -1,0 +1,94 @@
+.profile-jobs-main-container {
+  background-color: #2c364c;
+  padding: 20px;
+  margin: 15px;
+  border-radius: 20px;
+  border: 0px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  color: white;
+  margin-top: 0px;
+}
+
+.company-header-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.company-logo {
+  height: 80px;
+  width: 80px;
+}
+
+.company-name-details {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  margin-left: 10px;
+}
+
+.company-name-details h1 {
+  font-size: 20px;
+}
+
+.rating-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 50px;
+}
+
+.rating-container p {
+  margin-left: 10px;
+}
+
+.company-name {
+  font-size: 25px;
+  color: white;
+}
+
+.company-details-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+.package {
+  font-size: 20px;
+}
+
+.location-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.location-container p {
+  margin-left: 10px;
+}
+
+.work-emp-type-container,
+.work-location-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 10px;
+  margin-bottom: 0px;
+}
+
+hr {
+  width: 100%;
+}
+
+.job-description-container h1 {
+  font-size: 20px;
+}
+
+.job-description-container p {
+  font-size: 15px;
+}

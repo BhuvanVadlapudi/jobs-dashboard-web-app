@@ -1,0 +1,173 @@
+.jobs-main-container {
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  background-color: #121212;
+}
+
+.profile-filter-container {
+  padding: 20px;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+.loader-container {
+  height: 90vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.profile-card-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 10px;
+  border-radius: 10px;
+  background-image: url('https://assets.ccbp.in/frontend/react-js/profile-bg.png');
+  background-size: cover;
+  height: 200px;
+  width: 100%;
+}
+
+.profile-img {
+  height: 50px;
+  width: 50px;
+}
+
+.profile-name {
+  font-size: 20px;
+}
+
+.profile-bio {
+  font-size: 15px;
+}
+
+.label-header {
+  color: white;
+  font-size: 15px;
+}
+
+hr {
+  margin-top: 10px;
+  height: 1px;
+  border-radius: 5px;
+}
+
+.each-emp-type-container {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.each-emp-type-label {
+  margin: 0px;
+  margin-left: 10px;
+}
+
+.failure-card-container {
+  height: 200px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.failure-jobs-container {
+  height: 90vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+
+.retry-btn {
+  color: white;
+  background-color: #4f46e5;
+  border-radius: 10px;
+  padding: 10px;
+  border: 0px;
+}
+
+.profile-jobs-container {
+  width: 77%;
+  height: 100vh;
+  padding: 20px;
+  overflow: auto;
+}
+
+.search-bar-container {
+  display: flex;
+  justify-content: flex-start;
+  align-content: center;
+  margin: 20px;
+}
+
+.job-search-bar {
+  width: 100%;
+}
+
+.search-icon {
+  color: white;
+}
+
+.search-icon-container {
+  border: 1px solid white;
+  border-left: 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #2c364c;
+  width: 80px;
+}
+
+.no-jobs-data-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+
+.searchbar-container-mobile {
+  display: none;
+}
+
+.searchbar-container-desktop {
+  display: block;
+}
+
+@media screen and (max-width: 768px) {
+  .jobs-main-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .searchbar-container-desktop {
+    display: none;
+  }
+
+  .searchbar-container-mobile {
+    width: 100vw;
+    display: block;
+  }
+
+  .profile-jobs-container {
+    width: 100vw;
+    height: auto;
+    overflow: none;
+  }
+
+  .profile-filter-container {
+    width: 100vw;
+  }
+}
